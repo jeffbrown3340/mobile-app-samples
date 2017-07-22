@@ -86,8 +86,7 @@ export default class Form extends Component {
             * the 'revealed' state changes its bool value.
             */}
           <TouchableOpacity
-            // style={styles.revealer} 
-            style={styles.button} 
+            style={styles.revealer} 
             onPress={this.toggleDisplay.bind(this)}
           >
             {/* If the revealed state is false, say 'Reveal the Message!' */}
